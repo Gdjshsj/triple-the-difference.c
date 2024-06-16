@@ -1,2 +1,14 @@
-# triple-the-difference.c
-if the input number is greater than the given integer.it will return the triple the difference
+ #include<stdio.h>
+ int main()
+ {
+     int n;
+     scanf("%d",&n);
+     if(n>87)
+     {
+         printf("diff is: %d",((n-87)*3));
+     }
+     else
+     {
+         printf("sum is: %d",(87-n));
+     }
+ }
